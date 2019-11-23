@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+*{
+    font-family: 'Calistoga', cursive;
+}
 body{
     margin: 0;
     padding: 0;
-    background: rgb(24, 54, 56);
-    color: white;
+    background: rgb(23, 105, 110);
 }
-
 body article{
     text-align: center;
     border: 2px black solid;
@@ -14,15 +16,16 @@ body article{
 
 
 .Registrar{
-    background: rgb(4, 36, 66);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdO73o3LYKfjL8GR-07r7ZGRY2V6YH7WSjAZlt_WddWGAdn-XaKA&s);
+    background-position: center;
 }
 
 .modificar{
-    background: rgb(29, 37, 71);
+    background-image:url(https://www.logaster.com.es/blog/wp-content/uploads/sites/4/2019/01/4-min-620x350.jpg);
 }
 
 .eliminar{
-    background: rgb(46, 82, 97);
+    background-image: url(https://fotorecurso.com/images/2016/04/29/fondo-azul-exagonos-fotorecurso.jpg);
 }
  input{
     width: 70%;
@@ -37,4 +40,12 @@ body article{
  label{
      
     margin: 5px 0;
+}
+
+button{
+    margin: 5px 0;
+}
+
+button:hover{
+    background-color: cornflowerblue;
 }

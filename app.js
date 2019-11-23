@@ -4,8 +4,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 let cors = require('cors');
 var config = require('./config/mongodb');
+var indexRouter = require('./routes/index');
 var registerRouter = require('./routes/index');
-var register = require('./routes/register');
+
 
 var app = express();
 
@@ -18,7 +19,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors());
+app.use('/inicio', registerRouter);
 
 app.use('/register', registerRouter);
+
 
 module.exports = app;
