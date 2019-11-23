@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(24, 54, 56);
+    color: white;
+}
+
+body article{
+    text-align: center;
+    border: 2px black solid;
+    margin: 10em;
+    border-radius: 25px;
+}
+
+
+.Registrar{
+    background: rgb(4, 36, 66);
+}
+
+.modificar{
+    background: rgb(29, 37, 71);
+}
+
+.eliminar{
+    background: rgb(46, 82, 97);
+}
+ input{
+    width: 70%;
+    margin: 15px 0;
+    text-align: center;
+}
+
+ h2{
+    margin: 15px 0;
+}
+
+ label{
+     
+    margin: 5px 0;
+}

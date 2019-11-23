@@ -1,0 +1,6 @@
+
+> regsitroapi@0.0.1 start /home/deushdezt/Programacion_Web/register_api
+> node ./bin/www
+
+Listening on port 3600
+Conection to RegisterDB successfully//
